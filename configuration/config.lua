@@ -15,7 +15,7 @@ return {
 		-- Yes I use military time by default, deal with it ;) (or just disable it)
 		clock = {
 			-- Clock widget format
-			military_mode = true
+			military_mode = false
 		},
 
 		-- I do not use the widgets for the below configurations, but I left them here in-case you re-enable them!
@@ -82,7 +82,7 @@ return {
 				--]]
 			},
 			-- Stretch background image across all screens(monitor)
-			stretch = true
+			stretch = false
 		},
 
 		-- This module is not in use, configuration is left here for potential future use!

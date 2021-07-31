@@ -6,13 +6,13 @@ return {
 	-- The default applications that we will use in keybindings and widgets
 	default = {
 		-- Default terminal emulator
-		terminal = 'env alacritty',
+		terminal = 'env kitty',
 		-- Default web browser
-		web_browser = 'env brave-browser',
+		web_browser = 'env brave',
 		-- Default text editor
-		text_editor = 'geany',
+		text_editor = 'emacs',
 		-- Default file manager
-		file_manager = 'nautilus',
+		file_manager = 'dolphin',
 		-- Default media player
 		multimedia = 'celluloid',
 		-- Default game, can be a launcher like steam
@@ -22,7 +22,7 @@ return {
 		-- Default sandbox
 		sandbox = 'virt-manager',
 		-- Default IDE
-		development = 'code',
+		development = 'emacs',
 		-- Default network manager
 		network_manager = 'nm-connection-editor',
 		-- Default bluetooth manager
